@@ -12,7 +12,7 @@ public class App
         System.out.print( "What is the quote?" );
         String quote = input.nextLine(); //Input
         System.out.print("Who said it?");
-        String person = input.nextLine();
+        String person = input.nextLine();//Input
         String concat = (person + " says " + "\"" + quote + ".\"" );
         System.out.println(concat); //Output
 
